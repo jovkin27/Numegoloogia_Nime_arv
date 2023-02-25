@@ -1,4 +1,4 @@
-from ast import Return
+
 
 
 def calculate_name_value(nimi, table_file):
@@ -25,4 +25,16 @@ def calculate_name_value(nimi, table_file):
         nimi_arv = uus_arv
 
     return nimi_arv
+
+def nimi_arvestus(number, file):
+    """
+    """
+    with open('Nime_väärtused.txt', 'r') as f:
+        file_contents = f.read()
+    lines = file_contents.splitlines()
+    for line in lines:
+        if number in line:
+            text = line[line.index(number)+1:].strip()
+            print(text)
+            return
 
