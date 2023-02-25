@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="Numegoloogia_Nime_arv.py" />
     <Compile Include="Omamodule.py" />
+    <Compile Include="test.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Nime_väärtused.txt" />

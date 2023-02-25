@@ -37,4 +37,4 @@ def nimi_arvestus(number, file):
             text = line[line.index(number)+1:].strip()
             print(text)
             return
-
+    print("Текст не найден")
